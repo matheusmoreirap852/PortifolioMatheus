@@ -40,8 +40,15 @@
         <h1>{{ content().hero.title }}</h1>
         <p class="hero-copy">{{ content().hero.copy }}</p>
         <div class="hero-actions">
-          <a class="primary-action" href="#projetos" (click)="closeMenu()">{{ content().hero.cases }}</a>
-          <a class="secondary-action" [href]="content().resume.downloadFile" target="_blank" rel="noreferrer">
+          <a class="primary-action" href="#projetos" (click)="closeMenu()">{{
+            content().hero.cases
+          }}</a>
+          <a
+            class="secondary-action"
+            [href]="content().resume.downloadFile"
+            target="_blank"
+            rel="noreferrer"
+          >
             {{ content().hero.resume }}
           </a>
           <button class="secondary-action" type="button" (click)="accessSystem.emit()">
@@ -60,7 +67,7 @@
 
       <aside class="profile-card" aria-label="Resumo profissional">
         <div class="avatar">MP</div>
-        <strong>C# | .NET | Java | Spring Boot | Angular | React | SQL | AWS</strong>
+        <strong>C# | .NET | ASP.NET Core | DDD | EF Core | AWS</strong>
         <span>Goiânia, GO | Goiás, Brasil</span>
         <p>{{ content().hero.profile }}</p>
       </aside>
@@ -149,6 +156,11 @@
             }
           </dl>
           <strong class="case-result">{{ project.result }}</strong>
+          @if (project.url) {
+            <a [href]="project.url" target="_blank" rel="noreferrer"
+              >GitHub — {{ project.title }}</a
+            >
+          }
         </article>
       }
     </div>
@@ -201,7 +213,12 @@
         <strong>{{ content().resume.downloadTitle }}</strong>
         <span>{{ content().resume.downloadCopy }}</span>
       </div>
-      <a class="primary-action" [href]="content().resume.downloadFile" target="_blank" rel="noreferrer">
+      <a
+        class="primary-action"
+        [href]="content().resume.downloadFile"
+        target="_blank"
+        rel="noreferrer"
+      >
         {{ content().resume.downloadButton }}
       </a>
     </div>
@@ -228,7 +245,7 @@
 
     <div class="link-grid">
       <a
-        href="https://github.com/matheusmoreirap852/netPrecisionBack-End"
+        href="https://github.com/matheusmoreirap852/LocadoraInfinite"
         target="_blank"
         rel="noreferrer"
       >
@@ -237,7 +254,7 @@
         <p>{{ content().code.links[0][2] }}</p>
       </a>
       <a
-        href="https://github.com/matheusmoreirap852/netPrecisionFront-endAngular"
+        href="https://github.com/matheusmoreirap852/PortifolioMatheus"
         target="_blank"
         rel="noreferrer"
       >
