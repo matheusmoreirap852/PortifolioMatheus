@@ -85,8 +85,9 @@ const portfolioContent = {
       title: 'Engenharia C# / .NET, da regra de negócio à produção.',
       heading: 'Resumo profissional',
       paragraphs: [
-        'Analista de Sistemas Sênior com experiência em arquitetura, desenvolvimento e sustentação de sistemas e APIs C#/.NET, do levantamento de requisitos e desenho de soluções em camadas e DDD até testes, implantação e manutenção em produção.',
-        'Defino arquiteturas de dados e APIs conforme os requisitos do sistema, equilibrando desempenho, escalabilidade, segurança e uso eficiente de recursos. Colaboro com áreas de negócio e equipes técnicas para entregar soluções confiáveis.',
+        'Analista de Sistemas Sênior com experiência em arquitetura, desenvolvimento e sustentação de sistemas e APIs C#/.NET, do levantamento de requisitos e desenho de soluções em camadas e DDD até testes, implantação, versionamento e manutenção em produção.',
+        'Experiência com Oracle e SQL Server, uso atual de PostgreSQL hospedado no Supabase e conhecimento em bancos NoSQL, procedures, consultas otimizadas e roteamento de leituras. Defino arquiteturas de dados e APIs equilibrando desempenho, escalabilidade, segurança e uso eficiente de recursos.',
+        'Vivência com Docker, Git/GitHub, CI/CD, Kubernetes e AWS EC2/ECS/S3. Colaboro com áreas de negócio e equipes técnicas para entregar soluções confiáveis e escaláveis.',
       ],
       contact: 'Contato',
       focus: [
@@ -116,16 +117,16 @@ const portfolioContent = {
         [
           'Corporativo',
           'Jan 2024 - Jun 2026',
-          'Tata Consultancy Services | Petrobras',
-          'Analista de Sistemas Pleno | Software Engineer',
-          'Atuação remota em times corporativos com C#/.NET Framework, .NET Core/.NET 6+ e Blazor, documentação e reuniões técnicas. Participação na arquitetura, revisões de código, Docker, Kubernetes e CI/CD. Integração com Oracle, criação de procedures, otimização de consultas, Microsoft Graph API, SharePoint REST e AWS S3 para soluções de gestão documental.',
+          'TCS Brasil',
+          'Analista de Sistemas Pleno',
+          'Desenvolvimento de soluções em C#/.NET Framework, .NET Core/.NET 6+ e Blazor, com Docker, Kubernetes, Git e CI/CD. Participação na arquitetura e revisões de código. Integração com Oracle, criação de procedures, otimização de consultas, Microsoft Graph API, SharePoint REST e AWS S3.',
         ],
         [
           'Produto',
           'Jul 2022 - Fev 2024',
           'Senac Goiás',
           'Analista de Sistemas de TI',
-          'Desenvolvimento do Copa Sesc para gestão de torneios e pagamentos com C#/.NET, APIs e Blazor. Cadastros, formulários, validações, modelagem e migrações de dados, logs e desempenho. Implantação na AWS com Docker e Kubernetes, CI/CD e autenticação JWT com integração a serviços Microsoft.',
+          'Desenvolvimento e evolução do Copa Sesc para gestão de torneios e pagamentos, com APIs C#/.NET e Blazor. Cadastros, formulários e validações para eventos e serviços de assistência social. Implantação na AWS com Docker e Kubernetes, tratamento de erros, logs e melhorias de desempenho. Modelagem e migrações de dados, colaboração com infraestrutura, DBA e DevOps em CI/CD e suporte à produção. Autenticação e autorização JWT com chaves pública e privada e integração com serviços Microsoft.',
         ],
         [
           'Setor público',
@@ -170,7 +171,7 @@ const portfolioContent = {
           tag: 'Produto',
           title: 'Copa Sesc — torneios e pagamentos',
           details: [
-            'Desenvolvimento do Copa Sesc para gestão de torneios e pagamentos com C#/.NET, APIs e Blazor. Cadastros, formulários, validações, modelagem e migrações de dados, logs e desempenho. Implantação na AWS com Docker e Kubernetes, CI/CD e autenticação JWT com integração a serviços Microsoft.',
+            'Desenvolvimento e evolução do Copa Sesc para gestão de torneios e pagamentos, com APIs C#/.NET e Blazor. Cadastros, formulários e validações para eventos e serviços de assistência social. Implantação na AWS com Docker e Kubernetes, tratamento de erros, logs e melhorias de desempenho. Modelagem e migrações de dados, colaboração com infraestrutura, DBA e DevOps em CI/CD e suporte à produção. Autenticação e autorização JWT com chaves pública e privada e integração com serviços Microsoft.',
             'Analista de Sistemas de TI',
             'Desenvolvimento, integração e sustentação de aplicações.',
             'C#/.NET, Blazor, AWS, JWT',
@@ -236,14 +237,18 @@ const portfolioContent = {
         [
           '02',
           'Dados e cloud',
-          'Oracle, SQL Server, PostgreSQL, NoSQL, PL/SQL, AWS EC2/ECS/S3, Docker, Kubernetes.',
+          'Oracle, SQL Server, Supabase (PostgreSQL), NoSQL, PL/SQL, AWS EC2/ECS/S3, Docker, Kubernetes.',
         ],
         [
           '03',
           'Qualidade e integrações',
           'xUnit, NUnit, Serilog, Application Insights, Git/GitHub, Jenkins, GitHub Actions, REST, SOAP, Microsoft Graph API, SharePoint REST, SAP.',
         ],
-        ['04', 'Front-end', 'Angular, Blazor, React Native, JavaScript/TypeScript, HTML/CSS, MVC.'],
+        [
+          '04',
+          'Front-end',
+          'Angular: componentes, serviços, rotas, formulários e HttpClient; React Native: componentes, props/estado, hooks e navegação; Blazor, JavaScript/TypeScript, HTML/CSS, MVC e interfaces reutilizáveis.',
+        ],
         [
           '05',
           'IA e integrações',
@@ -336,8 +341,9 @@ const portfolioContent = {
       title: 'C# / .NET engineering, from business rules to production.',
       heading: 'Professional summary',
       paragraphs: [
-        'Senior Systems Analyst experienced in designing, developing and maintaining C#/.NET systems and APIs, from requirements and layered architecture with DDD to testing, deployment and production support.',
-        'I design data and API architectures around system requirements, balancing performance, scalability, security and efficient resource use. I collaborate with business and technical teams to deliver reliable solutions.',
+        'Senior Systems Analyst experienced in architecture, development and maintenance of C#/.NET systems and APIs, from requirements and layered solution design with DDD to testing, deployment, version control and production support.',
+        'Experience with Oracle and SQL Server, current use of PostgreSQL hosted on Supabase, and knowledge of NoSQL databases, stored procedures, optimized queries and read routing. I design data and API architectures to balance performance, scalability, security and efficient resource use.',
+        'Hands-on experience with Docker, Git/GitHub, CI/CD, Kubernetes and AWS EC2/ECS/S3. I collaborate with business stakeholders and technical teams to deliver reliable, scalable solutions.',
       ],
       contact: 'Contact',
       focus: [
@@ -370,16 +376,16 @@ const portfolioContent = {
         [
           'Enterprise',
           'Jan 2024 - Jun 2026',
-          'Tata Consultancy Services | Petrobras',
-          'Mid-level Systems Analyst | Software Engineer',
-          'Remote work in enterprise teams with C#/.NET Framework, .NET Core/.NET 6+ and Blazor, documentation and technical meetings. Architecture contributions, code reviews, Docker, Kubernetes and CI/CD. Oracle integration, stored procedures, query optimization, Microsoft Graph API, SharePoint REST and AWS S3 for document management solutions.',
+          'TCS Brasil',
+          'Mid-level Systems Analyst',
+          'Development of .NET Framework, .NET Core/.NET 6+ and Blazor solutions, with Docker, Kubernetes, Git and CI/CD. Architecture contributions and code reviews. Oracle integration, stored procedures, query optimization, Microsoft Graph API, SharePoint REST and AWS S3.',
         ],
         [
           'Product',
           'Jul 2022 - Feb 2024',
           'Senac Goiás',
           'IT Systems Analyst',
-          'Copa Sesc tournament and payment management with C#/.NET APIs and Blazor. Forms, validation, data modeling and migrations, logs and performance. AWS deployment with Docker and Kubernetes, CI/CD and JWT authentication integrated with Microsoft services.',
+          'Development and evolution of Copa Sesc for tournament and payment management, using C#/.NET APIs and Blazor. Registrations, forms and validation for events and social assistance services. AWS deployment with Docker and Kubernetes, error handling, logs and performance improvements. Data modeling and migrations, collaboration with infrastructure, DBA and DevOps teams on CI/CD and production support. JWT authentication and authorization with public/private keys and Microsoft service integrations.',
         ],
         [
           'Public sector',
@@ -423,7 +429,7 @@ const portfolioContent = {
           tag: 'Product',
           title: 'Copa Sesc — tournaments and payments',
           details: [
-            'Copa Sesc tournament and payment management with C#/.NET APIs and Blazor. Forms, validation, data modeling and migrations, logs and performance. AWS deployment with Docker and Kubernetes, CI/CD and JWT authentication integrated with Microsoft services.',
+            'Development and evolution of Copa Sesc for tournament and payment management, using C#/.NET APIs and Blazor. Registrations, forms and validation for events and social assistance services. AWS deployment with Docker and Kubernetes, error handling, logs and performance improvements. Data modeling and migrations, collaboration with infrastructure, DBA and DevOps teams on CI/CD and production support. JWT authentication and authorization with public/private keys and Microsoft service integrations.',
             'IT Systems Analyst',
             'Development, integration and production support.',
             'C#/.NET, Blazor, AWS, JWT',
@@ -489,14 +495,18 @@ const portfolioContent = {
         [
           '02',
           'Data & cloud',
-          'Oracle, SQL Server, PostgreSQL, NoSQL, PL/SQL, AWS EC2/ECS/S3, Docker, Kubernetes.',
+          'Oracle, SQL Server, Supabase (PostgreSQL), NoSQL, PL/SQL, AWS EC2/ECS/S3, Docker, Kubernetes.',
         ],
         [
           '03',
           'Quality & integrations',
           'xUnit, NUnit, Serilog, Application Insights, Git/GitHub, Jenkins, GitHub Actions, REST, SOAP, Microsoft Graph API, SharePoint REST, SAP.',
         ],
-        ['04', 'Front-end', 'Angular, Blazor, React Native, JavaScript/TypeScript, HTML/CSS, MVC.'],
+        [
+          '04',
+          'Front-end',
+          'Angular components, services, routing, forms and HttpClient; React Native components, props/state, hooks and navigation; Blazor, JavaScript/TypeScript, HTML/CSS, MVC and reusable interfaces.',
+        ],
         [
           '05',
           'AI & integrations',
