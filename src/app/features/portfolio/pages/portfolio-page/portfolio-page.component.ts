@@ -513,11 +513,11 @@ const portfolioContent = {
           'OpenAI API, autonomous agents, context/database integrations, advanced prompts.',
         ],
       ],
-      downloadTitle: 'Resume PDF (Portuguese)',
+      downloadTitle: 'Resume PDF (English)',
       downloadCopy:
         'Updated resume with professional experience, projects, education and languages.',
-      downloadButton: 'Download updated resume (PT)',
-      downloadFile: 'curriculo-matheus-pessoa.pdf',
+      downloadButton: 'Download updated resume (EN)',
+      downloadFile: 'resume-matheus-pessoa.pdf',
       educationTitle: 'Education and languages',
       education: [
         'PUC Goiás - Systems Analysis and Development, 2018–2021',

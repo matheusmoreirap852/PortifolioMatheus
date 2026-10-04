@@ -47,6 +47,22 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+  it('should select the resume PDF for the active portfolio language', async () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    await fixture.whenStable();
+    const element = fixture.nativeElement as HTMLElement;
+    const pdfLinks = () => Array.from(element.querySelectorAll<HTMLAnchorElement>('a[href$=".pdf"]'));
+    expect(pdfLinks().length).toBe(2);
+    expect(pdfLinks().every((link) => link.getAttribute('href') === 'curriculo-matheus-pessoa.pdf')).toBe(true);
+    element.querySelector<HTMLButtonElement>('.language-button')!.click();
+    fixture.detectChanges();
+    expect(pdfLinks().every((link) => link.getAttribute('href') === 'resume-matheus-pessoa.pdf')).toBe(true);
+    element.querySelector<HTMLButtonElement>('.language-button')!.click();
+    fixture.detectChanges();
+    expect(pdfLinks().every((link) => link.getAttribute('href') === 'curriculo-matheus-pessoa.pdf')).toBe(true);
+  });
+
   it('should render task manager title', async () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
