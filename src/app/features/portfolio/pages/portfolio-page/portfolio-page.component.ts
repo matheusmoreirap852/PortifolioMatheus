@@ -116,9 +116,9 @@ const portfolioContent = {
         [
           'Corporativo',
           'Jan 2024 - Jun 2026',
-          'TCS Brasil',
-          'Analista de Sistemas Pleno',
-          'Soluções em .NET Framework, .NET Core/.NET 6+ e Blazor. Docker, Kubernetes, Git, CI/CD, revisões de código e participação na arquitetura. Integração com Oracle, procedures, otimização de consultas, Microsoft Graph API, SharePoint REST e AWS S3.',
+          'Tata Consultancy Services | Petrobras',
+          'Analista de Sistemas Pleno | Software Engineer',
+          'Atuação remota em times corporativos com C#/.NET Framework, .NET Core/.NET 6+ e Blazor, documentação e reuniões técnicas. Participação na arquitetura, revisões de código, Docker, Kubernetes e CI/CD. Integração com Oracle, criação de procedures, otimização de consultas, Microsoft Graph API, SharePoint REST e AWS S3 para soluções de gestão documental.',
         ],
         [
           'Produto',
@@ -370,9 +370,9 @@ const portfolioContent = {
         [
           'Enterprise',
           'Jan 2024 - Jun 2026',
-          'TCS Brasil',
-          'Mid-level Systems Analyst',
-          '.NET Framework, .NET Core/.NET 6+ and Blazor solutions, Docker, Kubernetes, Git, CI/CD, code reviews and architecture. Oracle integration, stored procedures, query optimization, Microsoft Graph API, SharePoint REST and AWS S3.',
+          'Tata Consultancy Services | Petrobras',
+          'Mid-level Systems Analyst | Software Engineer',
+          'Remote work in enterprise teams with C#/.NET Framework, .NET Core/.NET 6+ and Blazor, documentation and technical meetings. Architecture contributions, code reviews, Docker, Kubernetes and CI/CD. Oracle integration, stored procedures, query optimization, Microsoft Graph API, SharePoint REST and AWS S3 for document management solutions.',
         ],
         [
           'Product',
